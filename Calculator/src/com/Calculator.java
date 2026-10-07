@@ -13,5 +13,12 @@ public class Calculator {
 	public void division(){
 		System.out.println(20/10);
 	}
+	public static void main(String[] args) {
+		Calculator c = new Calculator();
+		c.Addition();
+		c.multiplication();
+		c.division();
+		c.substraction();
+	}
 
 }
